@@ -4,11 +4,7 @@ import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
 
-/**
- * @author ngoanh2n
- */
 public class PortalPage extends Header<PortalPage> {
 
     @Step("Verify Login Successful")

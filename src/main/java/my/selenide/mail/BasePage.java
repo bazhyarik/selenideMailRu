@@ -15,7 +15,6 @@ import java.io.IOException;
 public abstract class BasePage<Page> {
 
     protected WebDriver driver;
-    protected long minTimeoutToWait = 5 * 1000; // Milliseconds
 
     public BasePage() {
         driver = WebDriverRunner.getWebDriver();

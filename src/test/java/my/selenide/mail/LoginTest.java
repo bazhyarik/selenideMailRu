@@ -3,8 +3,6 @@ package my.selenide.mail;
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Step;
 
-import static com.codeborne.selenide.Selenide.$;
-
 public class LoginTest extends BasePage<LoginTest> {
 
   @Step("Login with {username}/{password}")
